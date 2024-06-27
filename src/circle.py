@@ -16,8 +16,3 @@ class Circle(Figure):
     @property
     def get_perimeter(self):
         return 2 * pi * self.radius
-
-
-c = Circle(0)
-print(c.get_area)
-print(c.get_perimeter)
